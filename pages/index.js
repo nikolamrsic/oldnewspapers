@@ -22,10 +22,15 @@ export default function Home() {
     </nav>
   </header>
   
-    <section className=" mx-auto flex  items-center justify-between border-t border-b border-black bg-stone-300 py-3 px-5 font-thin">
-      <span>Lorem</span>
-      <span>Lorem ipsum</span>
-      <span>Lorem ipsum medium sectra</span>
+    <section className=" sticky top-0 mx-auto flex  items-center justify-between border-t border-b border-black bg-stone-300 py-3 px-5 font-thin">
+    <ul className='flex  w-full  justify-evenly'>
+        <li className=' py-2 px-5'><a href='#'>Home</a></li>
+        <li className=' py-2 px-5'><a href='#'>Political</a></li>
+        <li className=' py-2 px-5'><a href='#'>Life</a></li>
+        <li className=' py-2 px-5'><a href='#'>World</a></li>
+        <li className=' py-2 px-5'><a href='#'>Fun zone</a></li>
+        <li className=' py-2 px-5'><a href='#'>Sport</a></li>
+      </ul>
     </section>
     <section className="bg-stone-300 py-5">
       <h1 className="text-center font-serif text-7xl font-black">THE OLD PAPER NEWS</h1>

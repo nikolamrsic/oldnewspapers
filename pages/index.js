@@ -9,10 +9,10 @@ export default function Home() {
     <nav className="flex flex-col md:flex-row  gap-3 items-center justify-around  bg-stone-300 py-5 px-4">
       <div className="md:w-2/12 text-center md:text-left">
         <p className="font-serif  text-xl font-bold">By Nikola M.</p>
-        <p className="font-serif text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p className="font-serif text-sm">Glavi odgovorni urednik,.</p>
       </div>
       <div>
-        <h1 className="font-serif text-4xl font-bold text-black">THE OLD PAPER</h1>
+        <h1 className="font-serif text-4xl font-bold text-black">Serbian Paper Times</h1>
         <h1 className="text-center text-2xl">Belgrade</h1>
       </div>
       <div className="flex md:w-2/12 w-full flex-col items-center justify-center border border-black text-xl font-bold">
